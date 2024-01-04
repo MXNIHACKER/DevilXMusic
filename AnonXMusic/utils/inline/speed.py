@@ -35,6 +35,9 @@ def speed_markup(_, chat_id):
                     text=_["CLOSE_BUTTON"],
                     callback_data="close",
                 ),
+                InlineKeyboardButton(
+                    text="🍃𝐒𝐔𝐏𝐏𝐎𝐑𝐓🍃", url="https://t.me/II_mxni_II"
+                ),
             ],
         ]
     )
