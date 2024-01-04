@@ -7,7 +7,7 @@ def dirr():
     for file in os.listdir():
         if file.endswith(".jpg"):
             os.remove(file)
-        elif file.endswith(".jpeg"):
+        elif file.endswith(".mp4"):
             os.remove(file)
         elif file.endswith(".png"):
             os.remove(file)
